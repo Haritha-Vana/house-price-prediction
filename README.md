@@ -113,26 +113,14 @@ Best model: Random Forest Regressor
 | Random Forest | 0.812 | \~0.52 |
 
 
+## Output Images
 
-\## Output Images
-
-
-
-\### Correlation Heatmap
-
-!\[Correlation Heatmap](screenshots/correlation\_heatmap.png)
-
-
-
-\### Target Distribution
-
-!\[Target Distribution](screenshots/target\_distribution.png)
-
-
-
-\### Actual vs Predicted (Random Forest)
-
-!\[Actual vs Predicted](screenshots/actual\_vs\_predicted.png)
+| Image | Description |
+|-------|-------------|
+| ![Correlation Heatmap](https://raw.githubusercontent.com/Haritha-Vana/house-price-prediction/main/screenshots/correlation_heatmap.png) | **Correlation Heatmap** – Shows relationships between features. MedInc (median income) has the highest positive correlation with house price (MedHouseVal). |
+| ![Target Distribution](https://raw.githubusercontent.com/Haritha-Vana/house-price-prediction/main/screenshots/target_distribution.png) | **Target Distribution** – Histogram of house prices. Most values are between 1 and 3 (i.e., $100,000 to $300,000). |
+| ![Actual vs Predicted](https://raw.githubusercontent.com/Haritha-Vana/house-price-prediction/main/screenshots/actual_vs_predicted.png) | **Actual vs Predicted (Random Forest)** – Scatter plot showing predictions vs true values. R² score = 0.812, indicating good model performance. |
+| ![Prediction Output](https://raw.githubusercontent.com/Haritha-Vana/house-price-prediction/main/screenshots/price_prediction_output.png) | **Prediction Example** – Terminal output showing a sample house predicted price of $234,699. |
 
 
 
